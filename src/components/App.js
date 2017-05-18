@@ -23,7 +23,7 @@ class App extends React.Component {
    }
 
    componentWillMount() {
-      this.ref = base.syncState(`${this.props.storeId}/fishes`,
+      this.ref = base.syncState(`${this.props.params.storeId}/fishes`,
         {
           context: this,
           state: 'fishes'
@@ -50,7 +50,7 @@ class App extends React.Component {
      const fishes = {...this.state.fishes};
      const timestamp = Date.now();
      fishes[`fish${timestamp}`] = fish
-     this.setState({ fishes })
+     this.setState({ fishes });
    }
 
    loadSamples() {
@@ -106,6 +106,7 @@ class App extends React.Component {
             loadSamples={this.loadSamples}
             addFish={this.addFish}
             fishes={this.state.fishes}
+            storeId={this.props.params.storeId}
           />
         </div>
       )
