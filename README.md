@@ -8,7 +8,7 @@ FireBase (To stored the data)
 
 ![Example](https://github.com/angelfeliz/catchOfTheDay/blob/master/Store.gif)
 
-You can play with the application on ![The example page](https://angelfeliz.github.io/catchOfTheDay/)
+You can play with the application on [The example page](https://angelfeliz.github.io/catchOfTheDay/)
 
-The application was build followin the course of ![WESBOS](https://reactforbeginners.com/)
+The application was build followin the course of [WESBOS](https://reactforbeginners.com/)
 
