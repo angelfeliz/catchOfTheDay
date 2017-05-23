@@ -5,18 +5,23 @@
 1 verbose cli   'deploy' ]
 2 info using npm@3.10.7
 3 info using node@v7.5.0
-4 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\anrodriguez\Desktop\CatchOfTheDay\CatchOfTheDay\package.json'
+4 verbose stack Error: missing script: deploy
+4 verbose stack     at run (C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\lib\run-script.js:151:19)
+4 verbose stack     at C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\lib\run-script.js:61:5
+4 verbose stack     at C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:320:45)
+4 verbose stack     at final (C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:354:3)
+4 verbose stack     at then (C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:124:5)
+4 verbose stack     at C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:311:12
+4 verbose stack     at C:\Users\anrodriguez\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:426:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:413:12)
 5 verbose cwd C:\Users\anrodriguez\Desktop\CatchOfTheDay\CatchOfTheDay
 6 error Windows_NT 10.0.14393
 7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\anrodriguez\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "deploy"
 8 error node v7.5.0
 9 error npm  v3.10.7
-10 error path C:\Users\anrodriguez\Desktop\CatchOfTheDay\CatchOfTheDay\package.json
-11 error code ENOENT
-12 error errno -4058
-13 error syscall open
-14 error enoent ENOENT: no such file or directory, open 'C:\Users\anrodriguez\Desktop\CatchOfTheDay\CatchOfTheDay\package.json'
-15 error enoent ENOENT: no such file or directory, open 'C:\Users\anrodriguez\Desktop\CatchOfTheDay\CatchOfTheDay\package.json'
-15 error enoent This is most likely not a problem with npm itself
-15 error enoent and is related to npm not being able to find a file.
-16 verbose exit [ -4058, true ]
+10 error missing script: deploy
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
