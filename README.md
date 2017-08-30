@@ -10,5 +10,5 @@ FireBase (To stored the data)
 
 You can play with the application on [The example page](https://angelfeliz.github.io/catchOfTheDay/)
 
-The application was build followin the course of [WESBOS](https://reactforbeginners.com/)
+The application was build following the course of [WESBOS](https://reactforbeginners.com/)
 
