@@ -1,4 +1,5 @@
-Catch of the day is a store project wich sell fish.
+# Catch of the day.
+### Fish store.
 
 In this small application you can add item, add the item to the sell list and edit the inventary. Also you can find some animation using the Animation component of React. Is not a big application is a demostration application using:
 
